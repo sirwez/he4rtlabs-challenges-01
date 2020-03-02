@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Logo.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+</head>
+
+<body>
+    <header>
+
+        <img src="https://raw.githubusercontent.com/gitlherme/calculadora-freelancer/master/assets/images/heart-logo.png"
+            alt="Logo da He4rtDevs" class="logo-heart">
+    </header>
+    <div>
+        <div class="header-blue">
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <h1>Calculadora de Freelas</h1>
+                        <p>O desafio desenvolvido pelo grupo <he4rt>He4rt Developers</he4rt> tem a finalidade de
+                            descrever alguns
+                            fatores determinantes para você saber o valor da sua hora em um freelance. </p>
+                        <a class="btn btn-light btn-lg action-button" href="#section">Calcule</a>
+                    </div>
+                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder ">
+                        <div class="iphone-mockup"><img class="device" src="assets/img/bg-image.svg" width="500">
+                            <div class="screen"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Como é feito o Cálculo? </h2>
+                <p class="text-center">Segue abaixo informações sobre cada váriavel que determina o valor total de seu
+                    projeto.</p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-clock-o icon"></i>
+                        <h3 class="name">Tempo diário investido</h3>
+                        <p class="description">O tempo de descanso no seu dia é algo muito valioso para qualquer pessoa,
+                            certo?
+                            Então temos que levar esse fator em consideração.</p>
+                        <input class="btn btn-primary btn-block" type="text" id="valor-1" placeholder="Digite:">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-list-alt icon"></i>
+                        <h3 class="name">Dias Efetivos Trabalhando </h3>
+                        <p class="description">Não há nenhuma garantia que você poderá trabalhar todos os dias, logo,
+                            você terá que cotar uma quantidade de dias especificos
+                            para lidar com todo o processo, sendo ele a parte comercial e desenvolvimento.</p>
+                        <input class="btn btn-primary btn-block" type="text" id="valor-2" placeholder="Digite:">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-plane icon"></i>
+                        <h3 class="name">Dias de Férias por projeto </h3>
+                        <p class="description">Uma parte do valor da sua hora reflete
+                            diretamente na quantidade de dias que você deseja tirar
+                            "férias" com o valor total projeto.</p>
+                        <input class="btn btn-primary btn-block" type="text" id="valor-3" placeholder="Digite:">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-euro icon"></i>
+                        <h3 class="name">Valor total do Projeto</h3>
+                        <p class="description">Não podemos esquecer do principal fator que é o total a ser recebido pelo
+                            freela.
+                            A partir desse valor, do quanto você desejaria ganhar
+                            em cima do trabalho, é feito o calculo maior.</p>
+                        <input class="btn btn-primary btn-block" type="text" id="valor-4" placeholder="Digite:">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item" id="section">
+                    <div class="box">
+                        <span id="erro">Digite apenas números</span>
+                        <button id="calcular">Calcular</button>
+                        <div id="resultado"></div>
+                        <script src="main.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div id="credits">Desenvolvido por <a href=https://github.com/sirwez>SirWez</a> </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

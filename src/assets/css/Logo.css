@@ -1,0 +1,25 @@
+#brand-logo {
+  background-image: url(../../assets/img/he4rt_logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 105px;
+  width: 300px; 
+}
+
+#credits {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 80%;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  color: #8743cc;
+  text-decoration: none;
+
+  margin: -50px 300px 0 600px;
+}
+.logo {
+  width: 16%;
+  margin-top: 5px;
+}
+

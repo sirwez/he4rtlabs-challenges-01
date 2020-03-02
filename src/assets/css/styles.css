@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+  }
+header {
+    background-color:  #8743cc;
+    box-shadow: 10px  rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-heart {
+    width: 200px;
+  }
+  ::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    text-align: left;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: rgb(255, 255, 255);  
+    text-align: left;
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(255, 255, 255);  
+    text-align: left;
+ }
+  
+ :-ms-input-placeholder {  
+    color: rgb(255, 255, 255); 
+    text-align: left;
+ }
+ #calcular {
+    border: none;
+    background-color: #8743cc;
+    color: white;
+    font-size: 16px;
+    padding: 10px 35px;
+  }
+  
+  #calcular:hover {
+    transition-duration: 0.4s;
+    background-color: #ac79df;
+  }
+  .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+ 
