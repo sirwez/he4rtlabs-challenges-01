@@ -25,45 +25,13 @@ O projeto tem a finalidade de descrever alguns fatores determinantes para você 
 
 Essas quatro variaveis, vão definir um bom jeito de você cotar alguns de seus trabalhos até você começar a ter uma noção maior do que fazer nesses momentos.
 
-### Desafio
+# Tecnologias
 
-O que queremos ensinar é o que há algo muito além do software dentro desses meios de freelance. Há de fato muitas outras variáveis a serem levadas em conta, porém isso você irá descobrir com o tempo. Tá, mas é o desafio?
+ - Bootstrap
+ - JS
+ - HTML/CSS
 
-- Crie um fork deste repositório e trabalhe os arquivos da pasta **"src"**.
-- Crie uma pagina explicando o valor de cada variável, com estilo livre e uma sinalização da He4rt (logo, link, cores etc);
-- Nessa pagina haverá um formulário com 4 entradas entradas e um botão. Sendo essas entradas:
+# Files
+![print 1](https://github.com/sirwez/he4rtlabs-challenges-01/blob/20c516b41ce69fbed9379a834a483e5a9862f759/img%20project/frelas.jpg)
 
-  1.  Valor total do Projeto
-  2.  Quantidade de horas trabalhadas por dia
-  3.  Dias efetivos trabalhados na semana
-  4.  Dias de férias pelo projeto
-
-- Ao submeter o formulário será gerada uma nova div com o resultado da conta abaixo:
-
-  ```
-  // Conta para calcular valor da sua hora no projeto
-  //
-  // By: danielhe4rt
-
-  valorHora = (valorProjeto / (diasEfetivos * 4 * horasDiarias) ) + ( ( diasFerias * diasEfetivos * horasDiarias ) )
-  ```
-
-Cuidados a se tomar:
-
-- Validar entradas de texto para apenas aceitar números ou sua aplicação não irá funcionar;
-- Fazer um layout agradável e explicando o motivo do projeto;
-- Não ter pressa para terminar o projeto.
-
-### Conclusão do Desafio
-
-Commite as alterações feitas e faça um post ou no nosso Discord na sala #he4rtlabs-challenges ou um post no Twitter com a hashtag #He4rtLabsChallenges e iremos divulgar e/ou fazer um review do seu código.
-
-Caso você sinta confortável, deixamos um arquivo chamado REVIEW.MD para você fazer alguns comentários sobre o desafio e o que você achou no geral.
-
-## Créditos
-
-Este desafio foi desenvolvido pelo grupo He4rt Developers para uso livre da comunidade.
-
-## Autor
-
-- Daniel Reis (danielhe4rt) - Back-end Developer && He4rt Developers Leader - [Portfólio](https://danielheart.dev) - [Twitter](https://twitter.com/danielhe4rt)
+![print 2](https://github.com/sirwez/he4rtlabs-challenges-01/blob/20c516b41ce69fbed9379a834a483e5a9862f759/img%20project/frelas2.jpg)
